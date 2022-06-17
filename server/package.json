@@ -1,0 +1,33 @@
+{
+  "name": "itm-api",
+  "version": "1.0.0",
+  "description": "itm app APIExpress and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --inspect=0.0.0.0 server.js",
+    "prod": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "vinoth",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "pm2": "^4.5.1",
+    "sequelize": "^6.20.1",
+    "sequelize-cli": "^6.4.1"
+  }
+}
